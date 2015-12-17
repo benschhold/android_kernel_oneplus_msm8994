@@ -51,7 +51,6 @@ struct cpufreq_interactive_cpuinfo {
 	unsigned int target_freq;
 	unsigned int floor_freq;
 	unsigned int max_freq;
-	unsigned int min_freq;
 	u64 floor_validate_time;
 	u64 local_fvtime; /* per-cpu floor_validate_time */
 	u64 hispeed_validate_time; /* cluster hispeed_validate_time */
